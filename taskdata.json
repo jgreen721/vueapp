@@ -1,0 +1,59 @@
+{
+    "users":[
+        {
+            "id":1,
+            "username":"brat",
+            "password":"booba123",
+            "email":"brat91@gmail.com"
+        },
+        {
+            "id":2,
+            "username":"greenie",
+            "password":"passwd123",
+            "email":"jgreen721@gmail.com"
+        },
+        {
+            "id":3,
+            "username":"magz",
+            "password":"daycare123",
+            "email":"magzplay@pup.com"
+        }
+    ],
+    "tasks":[
+        {
+            "id":1,
+            "task":"create a json.file as mock-database",
+            "is_complete":true,
+            "score":7,
+            "userId":2
+        },
+        {
+            "id":2,
+            "task":"create login authentication/route-guards",
+            "is_complete":true,
+            "score":8,
+            "userId":2
+        },
+        {
+            "id":3,
+            "task":"leave a poopy present in moms bedroom",
+            "is_complete":true,
+            "score":8,
+            "userId":3
+        },
+        {
+            "id":4,
+            "task":"go to daycare",
+            "is_complete":true,
+            "score":8,
+            "userId":3
+        },
+        {
+            "id":5,
+            "task":"get materials to fix and clean car",
+            "is_complete":true,
+            "score":7,
+            "userId":1
+        }
+    ]
+}

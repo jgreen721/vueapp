@@ -4,10 +4,14 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "con": "concurrently \"npm run serve\" \"json-server --watch taskdata.json -s ./node_modules/json-server/public\""
   },
   "dependencies": {
+    "bootstrap": "^5.2.1",
+    "concurrently": "^7.4.0",
     "core-js": "^3.8.3",
+    "json-server": "^0.17.0",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0"
