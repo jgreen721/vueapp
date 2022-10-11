@@ -28,7 +28,7 @@ export default createStore({
   actions: {
     async login({ commit }, user) {
       console.log("user", user);
-      let response = await fetch(`http://localhost:3000/users`);
+      let response = await fetch(`https://starlit-donut-404a79.netlify.app/users`);
       let data = await response.json();
       let existingUser = data.filter((d) => d.username === user.username);
       if (!existingUser.length) {
